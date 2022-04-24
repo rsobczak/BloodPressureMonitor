@@ -13,6 +13,9 @@
 		58700A30281497DB001C671D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58700A2E281497DB001C671D /* Main.storyboard */; };
 		58700A32281497E2001C671D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58700A31281497E2001C671D /* Assets.xcassets */; };
 		58700A35281497E2001C671D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58700A33281497E2001C671D /* LaunchScreen.storyboard */; };
+		58700A3E2814A32E001C671D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58700A3D2814A32E001C671D /* CustomButton.swift */; };
+		58700A402814A34D001C671D /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58700A3F2814A34D001C671D /* CustomLabel.swift */; };
+		58700A422814A375001C671D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58700A412814A375001C671D /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		58700A31281497E2001C671D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58700A34281497E2001C671D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58700A36281497E2001C671D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58700A3D2814A32E001C671D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		58700A3F2814A34D001C671D /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		58700A412814A375001C671D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,22 @@
 				58700A2A281497DB001C671D /* SceneDelegate.swift */,
 				58700A2C281497DB001C671D /* ViewController.swift */,
 				58700A2E281497DB001C671D /* Main.storyboard */,
+				58700A3C2814A2F6001C671D /* View */,
 				58700A31281497E2001C671D /* Assets.xcassets */,
 				58700A33281497E2001C671D /* LaunchScreen.storyboard */,
 				58700A36281497E2001C671D /* Info.plist */,
 			);
 			path = BloodPressureMonitor;
+			sourceTree = "<group>";
+		};
+		58700A3C2814A2F6001C671D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58700A3D2814A32E001C671D /* CustomButton.swift */,
+				58700A3F2814A34D001C671D /* CustomLabel.swift */,
+				58700A412814A375001C671D /* CustomTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58700A3E2814A32E001C671D /* CustomButton.swift in Sources */,
+				58700A402814A34D001C671D /* CustomLabel.swift in Sources */,
+				58700A422814A375001C671D /* CustomTextField.swift in Sources */,
 				58700A2D281497DB001C671D /* ViewController.swift in Sources */,
 				58700A29281497DB001C671D /* AppDelegate.swift in Sources */,
 				58700A2B281497DB001C671D /* SceneDelegate.swift in Sources */,
