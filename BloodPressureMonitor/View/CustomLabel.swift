@@ -11,6 +11,9 @@ class CustomLabel: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var customLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+        customLabel.backgroundColor = .systemBlue
 
         // Do any additional setup after loading the view.
     }
